@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark gray text */
+}
+
+.primary-text {
+  color: #42AFED; /* Primary color */
+}
+
+.second-text {
+  color: #6c757d; /* Secondary color */
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+  min-width: 250px;
+}
+
+/* Page Content Wrapper */
+#page-content-wrapper {
+  min-width: calc(100% - 250px);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Medium shadow */
+}
+
+/* Table */
+.table {
+  background-color: #fff; /* White background */
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #42AFED; /* Primary color */
+  border-color: #42AFED; /* Primary color */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary color */
+  border-color: #6c757d; /* Secondary color */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Danger color */
+  border-color: #dc3545; /* Danger color */
+}
+
+/* Cards */
+.card {
+  margin-bottom: 20px;
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Larger title */
+  color: #333; /* Dark gray text */
+}
+
+.card-text {
+  color: #666; /* Medium gray text */
+}
+
+/* Footer */
+.footer {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a {
+  color: #42AFED; /* Primary color for links in footer */
+}

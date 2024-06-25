@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Umentor Admin Panel Login</title>
+
+     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+
+    <script src="js/firebaseConfig.js"></script>
+    <script src="js/login.js"></script>
+
+    <style media="screen">
+      body {
+        background: #ECEFF1;
+        color: rgba(0,0,0,0.87);
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .login-container {
+        max-width: 360px;
+        margin: 100px auto;
+        padding: 32px 24px;
+        border-radius: 3px;
+        background-color: white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      }
+
+      .login-container h2 {
+        color: #ffa100;
+        font-weight: bold;
+        font-size: 24px;
+        margin: 0 0 16px;
+        text-align: center;
+      }
+
+      .form-group {
+        margin-bottom: 16px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .form-group input {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .form-group button {
+        width: 100%;
+        padding: 12px;
+        background-color: #039be5;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .register-text {
+        text-align: center;
+        margin-top: 16px;
+        font-size: 14px;
+      }
+
+      .register-text a {
+        color: #039be5;
+        text-decoration: none;
+      }
+
+      @media (max-width: 600px) {
+        .login-container {
+          margin-top: 0;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Admin Panel Login</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
